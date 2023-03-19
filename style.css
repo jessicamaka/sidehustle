@@ -1,0 +1,42 @@
+body {background-image: url('background.jpg.jpg');
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+       font-family: 'Montserrat', sans-serif; }
+       h1 {padding-top: 50px;
+        line-height: 1.5;
+        font-family: 'Ubuntu';
+        font-size: 2.5rem;
+        font-weight: bold;}
+#name {padding-bottom: 20px;
+border: none;}
+#email {padding-bottom: 10px;
+    border: none;}
+#phone {padding-bottom: 20px;
+    border: none;}
+#password {padding-bottom: 20px;
+    border: none;}
+#submit {background-color: rgb(197, 216, 197);}
+.box {color: rgb(1, 1, 32);
+border-color: rgb(107, 107, 231);
+border-style: inset;
+border-radius: 20px;}
+@media (max-width: 300px)
+{ h1 {padding-top: 50px;
+    line-height: 1.5;
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;}
+#name {padding-bottom: 20px;
+border: none;}
+#email {padding-bottom: 10px;
+border: none;}
+#phone {padding-bottom: 20px;
+border: none;}
+#password {padding-bottom: 20px;
+border: none;}
+#submit {background-color: rgb(197, 216, 197);}
+.box {color: rgb(1, 1, 32);
+border-color: rgb(107, 107, 231);
+border-style: inset;
+border-radius: 20px;}}

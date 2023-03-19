@@ -2,27 +2,30 @@
 <html>
     <head>
         <title>Jessica's Form</title>
+        <link rel="stylesheet" href="style.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <h1>Fill in your details</h1>
-        <form action="/action_page.php" onsubmit="myFunction()"> 
-            <fieldset>
-                <legend>Fill the form</legend>
-             <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Name" required> <br>
-            <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" placeholder="Email" required> <br>
-            <label for="phone">Phone number</label>
-            <input type="tel" name="phone" id="phone" placeholder="Phone number" required > <br>
-            Gender: <label for="female">Female</label>
+    <body>  
+        <div class="box">
+            <h1>Fill in your details</h1>
+        <form action="/action_page.php" onsubmit="myFunction()" > 
+                <h3>Fill the form</h3>
+             <div class="name"><label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name" required></div> <br>
+            <div class="email"> <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email" required> </div> <br>
+           <div class="phone"> <label for="phone">Phone number</label>
+            <input type="tel" name="phone" id="phone" placeholder="Phone number" required ></div> <br>
+            <div class="gender"> Gender: <label for="female">Female</label>
             <input type="radio" name="gender" id="female" value="female"> 
             <label for="male">Male</label>
-            <input type="radio" name="gender" id="male" value="male"> <br>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" required> <br>
-            <input type="submit" value="Submit">
-        </fieldset>
-    </form>
+            <input type="radio" name="gender" id="male" value="male"><div> <br>
+           <div class="password"> <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="password" required> </div> <br>
+            <input type="submit" value="Submit" id="submit" >
+  </form>
+</div>
+    
         <script>
           function myFunction() {alert ('Form submitted successfully');
         }
